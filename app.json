@@ -1,1 +1,94 @@
-app.json￼Enter
+{
+    "name": "DEVbot - BALOCH",
+    "description": "DEVBALOCH  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://i.imgur.com/JjbhHmB.png",
+    "keywords": ["whatsapp", "userbot", "dev", "bot", "ai" , "MD" ],
+    "repository": "https://github.com/devbaloch01/devbaloch",
+    "website":   "https://devbot.ga/",
+    "success_url": "https://devbot.ga",
+    "stack": "container",
+     "env": {
+            "DEV_SESSION": {
+            "description": "",
+            "required": true
+             },
+            "OWN_NAME": {
+            "description": "",
+            "value": "devbaloch" ,
+            "required": true
+             },
+             "OWN_NUMBER": {
+            "description": "",
+            "value": "923461253726" ,
+            "required": true
+             },
+       
+            "AUTO_REACT": {
+            "description": "",
+            "value": "false" ,
+            "required": true
+             },
+       "FOOTER": {
+            "description": "",
+            "value": "Subscribe Channel https://youtube.com/@dev_baloch" ,
+            "required": true
+      },
+     "ANTI_LINK": {
+            "description": "",
+            "value": "false" ,
+            "required": true
+      },
+       "CAPTION": {
+            "description": "",
+            "value": "© Subscribe Channel https://youtube.com/@dev_baloch" ,
+            "required": true
+      },
+      "ALIVE_MESSAGE": {
+            "description": "",
+            "value": "default", 
+            "required": true
+      },
+      "ALIVE_LOGO": {
+            "description": "",
+            "value": "https://telegra.ph/file/1a24a0f305098381b9f70.png" ,
+            "required": true
+      },
+          "STIC_WM": {
+            "description": "",
+            "value": "DeVBaloCH ࿐" ,
+            "required": true
+      },
+          "WORK_TYPE": {
+            "description": "",
+            "value": "public" ,
+            "required": true
+      },
+         "SUDO": {
+            "description": "",
+            "value": "923461253726" ,
+            "required": true
+      },
+         "HEROKU": {
+            "description": "",
+            "value": "true" ,
+            "required": true
+      },
+         "HEROKU_API_KEY": {
+            "description": "",
+            "value": "" ,
+            "required": true
+      },
+         "HEROKU_APP_NAME": {
+            "description": "",
+            "value": "" ,
+            "required": true
+      }  
+        
+     },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+     }
