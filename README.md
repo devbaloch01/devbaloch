@@ -13,7 +13,7 @@ This project is still being tested
     </p>
     
   ### Qr Scan Repl.it 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@MagmaGaming/AQUABOT-MDV2?v=1)
+[![Run on Repl.it](https://github.com/devbaloch01/devbaloch?utm_source=V2&utm_medium=billboard&utm_campaign=sale)
 
 ## Deploy To Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2F&template=https%3A%2F%2Fgithub.com%2Fsanuwaofficial%2FAQUABOT-MD)
